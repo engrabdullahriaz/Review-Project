@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1 id="title">OUR SURVEY FORM</h1>
+  <p id="description"><i>this is survey form please fill in an appropiate manner</i></p>
+  <form id="survey-form">
+    <label id="name-label">enter your name here</label>
+    <input required type="text" id="name" placeholder="name">
+    <br><br>
+    <label id="email-label">Enter your email:</label>
+    <input required type="email" id="email" placeholder="email">
+    <br><br>
+    <label id="number-label">Enter your number:</label>
+    <input required type="number" id="number" max="50" min="10" placeholder="number">
+    <br><br>
+    <label>select from the dropdown</label>
+    <select name="dropdown" id="dropdown">
+      <option value="languge"></option>
+
+      <option value="country"></option>
+
+      <option value="time zone"></option>
+    </select>
+    <br>
+    <input type="radio" name="gender" value="1"> <label>Male</label>
+    <input type="radio" name="gender" value="2"> <label>FEMALE</label>
+    <input type="radio" name="gender" value="3"> <label>TRANSGENDER</label>
+    <input type="radio" name="gender" value="4"> <label>BIGENDER</label>
+    <br>
+    <input type="checkbox" name="fav-color" value="1"> <label>blue</label>
+    <input type="checkbox" name="fav-color" value="2"> <label>white</label>
+    <input type="checkbox" name="fav-color" value="3"> <label>black</label>
+    <input type="checkbox" name="fav-color" value="4"> <label>green</label>
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" id="submit">
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
